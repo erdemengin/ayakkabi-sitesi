@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #1e2227;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px 0 80px;
+}
+.icons{
+    color: white;
+    font-size: 25px;
+    padding-left: 20px;
+    display: flex;
+    column-gap: 30px;
+}
+.sol-alt{
+    width: 50%;
+    color: white;
+    padding-left: 80px;
+    padding-top: 50px;
+    display: block;
+}
+.sol-alt h1{
+    font-size: 74px;
+}
+.sol-alt p{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.sol-alt h2{
+    display: inline;
+    font-size: 25px;
+}
+.sol-alt s{
+    display: inline;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.sol-alt button{
+    display: inline-block;
+    width: fit-content;
+    padding: 18px 50px;
+    background-color: red;
+    color: white;
+    margin: 20px 0 0 70px;
+    border-radius: 10px;
+}
+.alt{
+    display: flex;
+}
+.sag-alt{
+    background: red;
+    width: 50%;
+    height: 100%;
+    padding-left: 40px ;
+}
+.ust-resim img{
+    width: 80%;
+}
+.alt-resimler img{
+    width: 120px;
+    display:inline;
+    padding-left: 50px;
+    padding-top: 40px;
+    transform: rotate(-30deg);
+    transition: ease 0.5s;
+}
+.alt-resimler img:hover{
+    transform: rotate(0deg);
+    transition: ease 0.5s;
+}
